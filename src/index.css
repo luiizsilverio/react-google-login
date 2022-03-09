@@ -24,6 +24,13 @@ code {
 	background: #fafafa;
 }
 
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
 p {
 	margin: 5px 0;
 	font-size: 1.5rem;

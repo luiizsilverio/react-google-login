@@ -31,7 +31,7 @@ function App() {
 			/>
       {
         isLogged &&
-          <div>
+          <div className="center">
             <h1>Dados do usuário</h1>
             <img src={picture} alt={name} className="profile" />
             <p>Nome: {name}</p>
